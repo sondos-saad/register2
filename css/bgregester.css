@@ -1,0 +1,49 @@
+body{
+    background-image: url(../image/pexels-darius-krause-2609107.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin-top: 150px !important;
+
+}
+.register{
+   background-color: rgb(143, 165, 114);
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    padding:10px 40px;
+    border: none;
+}
+.register h1{
+    padding: 20px;
+    text-align: center;
+    color: rgba(11, 24, 16, 0.671);
+}
+.register .form-group .form-control:hover{
+   background-color: rgb(219, 235, 202);
+}
+.register button{
+    width: 150px;
+    border: none;
+    background-color: rgba(11, 24, 16, 0.671);
+    margin-left: 200px;
+    padding: 10px;
+    font-weight: 400;
+    border-radius: 20px;
+}
+.register button:hover{
+    background-color: rgba(35, 63, 3, 0.671);
+}
+.register-right .fa-arrow-left{
+    color: aliceblue;
+    font-size: 80px;
+    margin-top: 200px;
+    margin-left: 200px;
+    animation: so 1s infinite alternate;
+}
+@keyframes so{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-50px);
+    }
+}
